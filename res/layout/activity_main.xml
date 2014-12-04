@@ -1,0 +1,339 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.glorygrow.glancecartoons.MainActivity"
+	android:background="#000000" >
+
+    <LinearLayout
+        android:id="@+id/llo0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+        
+			<LinearLayout
+			    android:id="@+id/llo1"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+	        	android:layout_weight="1"
+	        	android:orientation="vertical"
+	        	android:background="@drawable/title" >
+	        	
+	        </LinearLayout>
+	
+			<LinearLayout
+			    android:id="@+id/llo2"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:orientation="vertical" >
+			    
+			    <LinearLayout 
+			        android:id="@+id/llo2_head"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:orientation="vertical" >
+			        <TextView 
+			            android:id="@+id/llo2_head_title"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1"
+			            android:paddingLeft="15dp"
+			            android:gravity="center_vertical"
+			            android:singleLine="true"
+			            android:textColor="#ffffff"
+			            android:textStyle="bold|italic"
+			            android:textSize="20dp"
+			            android:text="@string/comicbook" />
+			    </LinearLayout>
+	
+			    <LinearLayout
+			        android:id="@+id/llo2_body1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:orientation="horizontal" >
+			        
+			        <LinearLayout 
+			            android:id="@+id/llo2_body1_llo1"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:layout_weight="1"
+				        android:paddingTop="3dp"
+				        android:paddingBottom="3dp" >
+			            <Button 
+				            android:id="@+id/llo2_body1_btn1"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:layout_weight="1"
+				            android:background="#000000"
+				            android:gravity="center_vertical|center_horizontal"
+				            android:textColor="#ffffff"
+				            android:textSize="18dp"
+				            android:text="link 1" />
+			        </LinearLayout>
+			        <LinearLayout 
+			            android:id="@+id/llo2_body1_llo2"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:layout_weight="1"
+				        android:paddingTop="3dp"
+				        android:paddingBottom="3dp" >
+			            <Button 
+				            android:id="@+id/llo2_body1_btn2"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:layout_weight="1"
+				            android:background="#000000"
+				            android:gravity="center_vertical|center_horizontal"
+				            android:textColor="#ffffff"
+				            android:textSize="18dp"
+				            android:text="link 2" />
+			        </LinearLayout>
+			        <LinearLayout 
+			            android:id="@+id/llo2_body1_llo3"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:layout_weight="1"
+				        android:paddingTop="3dp"
+				        android:paddingBottom="3dp" >
+			            <Button 
+				            android:id="@+id/llo2_body1_btn3"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:layout_weight="1"
+				            android:background="#000000"
+				            android:gravity="center_vertical|center_horizontal"
+				            android:textColor="#ffffff"
+				            android:textSize="18dp"
+				            android:text="link 3" />
+			        </LinearLayout>
+			        "
+			    </LinearLayout>
+	
+			    <LinearLayout 
+			        android:id="@+id/llo2_body2"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:orientation="horizontal" >
+			    	
+			    	<LinearLayout 
+			            android:id="@+id/llo2_body2_llo1"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:layout_weight="1"
+				        android:paddingTop="3dp"
+				        android:paddingBottom="3dp" >
+			            <Button 
+				            android:id="@+id/llo2_body2_btn1"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:layout_weight="1"
+				            android:background="#000000"
+				            android:gravity="center_vertical|center_horizontal"
+				            android:textColor="#ffffff"
+				            android:textSize="18dp"
+				            android:text="link 4" />
+			        </LinearLayout>
+			        <LinearLayout 
+			            android:id="@+id/llo2_body2_llo2"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:layout_weight="1"
+				        android:paddingTop="3dp"
+				        android:paddingBottom="3dp" >
+			            <Button 
+				            android:id="@+id/llo2_body2_btn2"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:layout_weight="1"
+				            android:background="#000000"
+				            android:gravity="center_vertical|center_horizontal"
+				            android:textColor="#ffffff"
+				            android:textSize="18dp"
+				            android:text="link 5" />
+			        </LinearLayout>
+			        <LinearLayout 
+			            android:id="@+id/llo2_body2_llo3"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:layout_weight="1"
+				        android:paddingTop="3dp"
+				        android:paddingBottom="3dp" >
+			            <Button 
+				            android:id="@+id/llo2_body2_btn3"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:layout_weight="1"
+				            android:enabled="false"
+				            android:background="#000000" />
+			        </LinearLayout>
+			        
+			    </LinearLayout>
+			    
+			</LinearLayout>
+	    	
+	    	<LinearLayout
+	    	    android:id="@+id/llo3"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:layout_weight="1"
+	    	    android:orientation="vertical" >
+	    	    
+	    	    <LinearLayout 
+			        android:id="@+id/llo3_head"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:orientation="vertical" >
+	
+	    	        <TextView
+	    	            android:id="@+id/llo3_head_title"
+	    	            android:layout_width="fill_parent"
+	    	            android:layout_height="fill_parent"
+	    	            android:layout_weight="1"
+	    	            android:paddingLeft="15dp"
+	    	            android:gravity="center_vertical"
+	    	            android:singleLine="true"
+	    	            android:text="@string/webtoon"
+	    	            android:textColor="#ffffff"
+	    	            android:textSize="20dp"
+	    	            android:textStyle="bold|italic" />
+	
+			    </LinearLayout>
+			    <LinearLayout 
+			        android:id="@+id/llo3_body1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:orientation="horizontal" >
+	    	        
+			    	<LinearLayout 
+			            android:id="@+id/llo3_body1_llo1"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:layout_weight="1"
+				        android:paddingTop="3dp"
+				        android:paddingBottom="3dp" >
+			            <Button 
+				            android:id="@+id/llo3_body1_btn1"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:layout_weight="1"
+				            android:background="#000000"
+				            android:gravity="center_vertical|center_horizontal"
+				            android:textColor="#ffffff"
+				            android:textSize="18dp"
+				            android:text="Naver" />
+			        </LinearLayout>
+			        <LinearLayout 
+			            android:id="@+id/llo3_body1_llo2"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:layout_weight="1"
+				        android:paddingTop="3dp"
+				        android:paddingBottom="3dp" >
+			            <Button 
+				            android:id="@+id/llo3_body1_btn2"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:layout_weight="1"
+				            android:background="#000000"
+				            android:gravity="center_vertical|center_horizontal"
+				            android:textColor="#ffffff"
+				            android:textSize="18dp"
+				            android:text="Daum" />
+			        </LinearLayout>
+			        <LinearLayout 
+			            android:id="@+id/llo3_body1_llo3"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:layout_weight="1"
+				        android:paddingTop="3dp"
+				        android:paddingBottom="3dp" >
+			            <Button 
+				            android:id="@+id/llo3_body1_btn3"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:layout_weight="1"
+				            android:background="#000000"
+				            android:gravity="center_vertical|center_horizontal"
+				            android:textColor="#ffffff"
+				            android:textSize="18dp"
+				            android:text="Nate" />
+			        </LinearLayout>
+			        
+			    </LinearLayout>
+			    <LinearLayout 
+			        android:id="@+id/llo3_body2"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="1"
+			        android:orientation="horizontal" >
+			    	
+			        <LinearLayout 
+			            android:id="@+id/llo3_body2_llo1"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:layout_weight="1"
+				        android:paddingTop="3dp"
+				        android:paddingBottom="3dp" >
+			            <Button 
+				            android:id="@+id/llo3_body2_btn1"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:layout_weight="1"
+				            android:background="#000000"
+				            android:gravity="center_vertical|center_horizontal"
+				            android:textColor="#ffff00"
+				            android:textSize="16dp"
+				            android:text="카톡 추천하기" />
+			        </LinearLayout>
+			        <LinearLayout 
+			            android:id="@+id/llo3_body2_llo2"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:layout_weight="1"
+				        android:paddingTop="3dp"
+				        android:paddingBottom="3dp" >
+			            <Button 
+				            android:id="@+id/llo3_body2_btn2"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:layout_weight="1"
+				            android:enabled="false"
+				            android:background="#000000"
+				            android:gravity="center_vertical|center_horizontal"
+				            android:textColor="#919191"
+				            android:textSize="10dp"
+				            android:text="by GloryGrow"
+				            android:textStyle="italic" />
+			        </LinearLayout>
+			        
+			    </LinearLayout>
+	    	    
+	    	</LinearLayout>
+	    	
+	    </LinearLayout>
+    	
+        <LinearLayout 
+    	    android:id="@+id/llo4_ad"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:layout_weight="9"
+    	    android:orientation="vertical"
+    	    android:background="#000000" >
+			
+    	</LinearLayout>
+        
+    </LinearLayout>
+    
+</RelativeLayout>
