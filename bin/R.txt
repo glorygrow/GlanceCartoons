@@ -440,7 +440,7 @@ int id action_menu_presenter 0x7f0a0006
 int id action_mode_bar 0x7f0a003f
 int id action_mode_bar_stub 0x7f0a003e
 int id action_mode_close_button 0x7f0a0031
-int id action_settings 0x7f0a0075
+int id action_settings 0x7f0a0076
 int id activity_chooser_view_content 0x7f0a0032
 int id always 0x7f0a0014
 int id beginning 0x7f0a001b
@@ -543,6 +543,7 @@ int id title 0x7f0a0038
 int id up 0x7f0a0001
 int id useLogo 0x7f0a0013
 int id webview 0x7f0a0074
+int id webview_ad 0x7f0a0075
 int id withText 0x7f0a0018
 int id wrap_content 0x7f0a0009
 int integer abc_max_action_buttons 0x7f090000

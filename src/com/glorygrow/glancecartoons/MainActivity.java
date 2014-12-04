@@ -1,10 +1,12 @@
 package com.glorygrow.glancecartoons;
 
 import android.support.v7.appcompat.*;
+import android.R.interpolator;
 import android.R.string;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -38,6 +40,13 @@ public class MainActivity extends Activity {
         
         interstitial = new InterstitialAd(this);
         interstitial.setAdUnitId("ca-app-pub-1060814147242762/8065001337");
+        interstitial.setAdListener(new AdListener() {
+        	@Override
+        	public void onAdLoaded() {
+        		displayInterstitial();
+        		super.onAdLoaded();
+        	}
+		});
         AdRequest adRequest2 = new AdRequest.Builder().build();
         interstitial.loadAd(adRequest2);
         
@@ -48,7 +57,7 @@ public class MainActivity extends Activity {
         layoutAd.addView(adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
-		
+        
         try {
         	kakaoLink = KakaoLink.getKakaoLink(getApplicationContext());
         	kakaoTalkLinkMessageBuilder = kakaoLink.createKakaoTalkLinkMessageBuilder();
@@ -62,7 +71,7 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Bundle webUrl = new Bundle();
-				webUrl.putString("url", "http://aetoys.tumblr.com/phone");
+				webUrl.putString("url", "http://aetoys.tumblr.com");
 				Intent myIntent = new Intent(getApplicationContext(), WebViewActivity.class);
 				myIntent.putExtras(webUrl);
 				startActivity(myIntent);
@@ -215,6 +224,7 @@ public class MainActivity extends Activity {
     @Override
     public void onResume() {
     	super.onResume();
+    	displayInterstitial();
     	adView.resume();
     }
 

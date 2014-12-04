@@ -2032,7 +2032,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0a003f;
         public static final int action_mode_bar_stub=0x7f0a003e;
         public static final int action_mode_close_button=0x7f0a0031;
-        public static final int action_settings=0x7f0a0075;
+        public static final int action_settings=0x7f0a0076;
         public static final int activity_chooser_view_content=0x7f0a0032;
         public static final int always=0x7f0a0014;
         public static final int beginning=0x7f0a001b;
@@ -2135,6 +2135,7 @@ containing a value of this type.
         public static final int up=0x7f0a0001;
         public static final int useLogo=0x7f0a0013;
         public static final int webview=0x7f0a0074;
+        public static final int webview_ad=0x7f0a0075;
         public static final int withText=0x7f0a0018;
         public static final int wrap_content=0x7f0a0009;
     }

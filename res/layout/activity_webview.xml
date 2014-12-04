@@ -5,7 +5,7 @@
     tools:context="com.glorygrow.glancecartoons.MainActivity"
     android:background="#000000" >
 
-    <LinearLayout 
+    <RelativeLayout 
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical" >
@@ -21,7 +21,16 @@
 	        android:layout_width="fill_parent"
 	        android:layout_height="fill_parent" />
         
-    </LinearLayout>
+        <FrameLayout 
+    	    android:id="@+id/webview_ad"
+    	    android:layout_width="320dp"
+    	    android:layout_height="50dp"
+    	    android:layout_alignParentBottom="true"
+    	    android:layout_centerHorizontal="true"
+    	    android:layout_above="@+id/webview"
+    	    android:orientation="vertical" />
+        
+    </RelativeLayout>
    
 
 </RelativeLayout>
